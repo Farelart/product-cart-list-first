@@ -4,6 +4,7 @@ import { useState, useMemo } from "react";
 import Image from "next/image";
 import { useCartStore } from "@/app/lib/useCartStore";
 import Modal from "./Modal";
+import { getImagePath } from "@/utils/paths";
 
 export default function Cart() {
   const cartStore = useCartStore();
@@ -75,7 +76,7 @@ export default function Cart() {
         ) : (
           <div className="flex flex-col justify-center items-center mt-6">
             <Image
-              src={`/assets/images/illustration-empty-cart.svg`}
+              src={getImagePath("/assets/images/illustration-empty-cart.svg")}
               alt="Empty cart"
               width={150}
               height={150}
