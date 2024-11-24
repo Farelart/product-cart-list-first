@@ -1,7 +1,6 @@
 {
   "name": "product-cart-list-first",
   "version": "0.1.0",
-  "homepage": "https://farelart.github.io/product-cart-list-first",
   "private": true,
   "scripts": {
     "dev": "next dev --turbopack",
