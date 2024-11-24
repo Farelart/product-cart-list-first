@@ -38,7 +38,7 @@ export default function Cart() {
 
   return (
     <>
-      <section className="bg-white h-min w-1/3 p-4 shadow-md rounded-md">
+      <section className="bg-white h-min w-full sm:w-1/3 p-4 shadow-md rounded-md">
         <h2 className="font-bold text-lg text-orange-700">
           Your Cart ({cartCount})
         </h2>
